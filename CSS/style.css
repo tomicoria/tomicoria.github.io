@@ -1,0 +1,269 @@
+/* Encabezado */
+
+* {
+  font-family: 'Roboto Light', sans-serif;
+}
+
+header {
+  position: relative;
+  background-image: url('https://www.camionetica.com/wp-content/uploads/2014/05/Inspired-by-The-Work-of-Mario-Hugo.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 20vh;
+}
+
+header h1 {
+  color: black;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+
+}
+
+header .col-md-6:last-child {
+  display: flex;
+  align-items: center;
+}
+
+header .col-md-6:last-child h2 {
+  color: black;
+  margin: 0;
+}
+
+header .col-md-6:last-child .ml-auto {
+  margin-left: auto;
+}
+
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Sección "Sobre mí" */
+
+.img {
+  border-radius: 25px;
+
+}
+
+#about {
+  background-color: #f7f7f7;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+
+/* Sección "Educación" */
+
+#education table {
+  width: 100%;
+  border: solid 2px black;
+}
+
+#education h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#education th {
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#education td {
+  vertical-align: middle;
+}
+
+thead {
+  background: #EEE3E1;
+}
+
+th {
+  padding: 20px 15px;
+  font-weight: 700px;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 15px;
+  border-bottom: solid 1px;
+}
+
+
+/* Sección "Experiencia" */
+
+#experience {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+#experience h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.list-group {
+  margin-bottom: 50px;
+}
+
+.list-group h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.list-group p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.list-group small {
+  font-size: 1rem;
+  font-style: italic;
+  color: #666;
+}
+
+
+/* Sección de habilidades */
+#skills {
+  background-color: #f2f2f2;
+}
+
+#skills h2 {
+  font-weight: bold;
+  text-align: center;
+  color: #007bff;
+}
+
+#skills .progress {
+  height: 20px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+
+#skills .progress-bar {
+  height: 100%;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #007bff;
+}
+
+#skills h4 {
+
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+/* Seccion Contacto */
+
+section#contacto {
+  background: radial-gradient(#fff7ec, #f1d1b5);
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group-fixed {
+  flex-basis: 300px;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px #007bff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  cursor: pointer;
+}
+
+
+section#contacto h3 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+section#contacto ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+section#contacto ul li {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}

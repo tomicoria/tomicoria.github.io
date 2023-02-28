@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <!--Enlaces a Hojas de estilos-->
+  <link rel="stylesheet" href="CSS/style.css">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+    integrity="sha512-Hz1H9Xa2vRgexXXxd8ULZzEwFfPwvDxbhYFChKse/ZlTkzX1sT0rBkeCij2MZwPf77ZnB3CN/3qU6Wk/yusg2Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!--Iconos-->
+  <script src="https://kit.fontawesome.com/8968990ea5.js" crossorigin="anonymous"></script>
+
+
+  <!--Fuentes-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,300&display=swap"
+    rel="stylesheet">
+
+  <link rel="icon" href="https://academy.profesional.ticmas.io/favicon.ico">
+  <title>Contacto</title>
+
+</head>
+
+<body>
+  <!--Seccion Contacto-->
+  <section id="contacto" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Contacto</h2>
+      <p>Si está interesado en mi perfil profesional y desea obtener más información, no dude en ponerse en contacto conmigo a través del siguiente formulario</p>
+      <div class="form-container">
+        <div class="col-md-6">
+          <form action="robertophilips@example.com" method="post" enctype="text/plain">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo Electronico</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h3>Información de contacto</h3>
+          <p>Tambien puede contactarme por los siguientes canales:</p>
+          <ul>
+            <li><i class="fa-solid fa-mobile"></i> +54 (351) 3333333</li>
+            <li><i class="fa-solid fa-envelope"></i> robertophilips@example.com</li>
+            <li><i class="fa-brands fa-square-instagram"></i> @robertophilips</li>
+            <li><i class="fa-brands fa-linkedin"></i> @phillipsroberto</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer style="text-align:center;">
+    <hr class="w-100">
+    <p>&copy; 2023. Tomás Coria. Todos los derechos reservados</p>
+  </footer>
+
+
+  <!--Enlace a JS-->
+  <script src="JS/function.js"></script>
+
+
+</body>
+
+</html>
